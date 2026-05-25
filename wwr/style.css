@@ -1,0 +1,180 @@
+/* Configurações Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* 1. Estilização do Cabeçalho */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 15px 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+.logo-placeholder {
+    width: 120px;
+    height: 50px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border: 1px dashed #999;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    border-left: 1px solid #ccc;
+}
+
+.nav a:first-child {
+    border-left: none;
+}
+
+/* 2. Estilização da Seção Hero */
+.hero-section {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.hero-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: left;
+}
+
+.hero-text {
+    flex: 2;
+    line-height: 1.6;
+}
+
+.hero-image-placeholder {
+    flex: 1;
+    height: 200px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #999;
+    color: #666;
+}
+
+/* 3. Estilização da Seção História */
+.history-section {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.history-section h2 {
+    margin-bottom: 20px;
+}
+
+.history-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-column {
+    flex: 1;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.history-image-placeholder {
+    width: 250px;
+    height: 150px;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #333;
+}
+
+/* 4. Estilização da Seção de Aventuras (Cards) */
+.adventure-section {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.adventure-section h2 {
+    margin-bottom: 25px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.card {
+    flex: 1;
+    text-align: center;
+}
+
+.card-image-placeholder {
+    width: 100%;
+    height: 120px;
+    background-color: #e0e0e0;
+    border: 1px dashed #999;
+    margin-bottom: 10px;
+}
+
+/* 5. Estilização do Rodapé */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #b0b0b0;
+    padding: 20px;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-placeholder {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
