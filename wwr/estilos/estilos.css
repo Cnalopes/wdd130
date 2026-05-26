@@ -13,7 +13,16 @@ body {
     margin: 0 auto;
 }
 
-/* 1. Estilização do Cabeçalho */
+p {
+    padding: 0;
+}
+
+h1 {
+    color: #1a5f7a;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,40 +33,42 @@ body {
     margin-bottom: 30px;
 }
 
-.logo-placeholder {
-    width: 120px;
-    height: 50px;
-    background-color: #e0e0e0;
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #666;
-    border: 1px dashed #999;
+    gap: 10px;
 }
-
-.nav a {
-    text-decoration: none;
+nav a {
     color: #333;
     padding: 10px 15px;
-    border-left: 1px solid #ccc;
+    display: block;
+    text-decoration: none;
 }
 
 .nav a:first-child {
     border-left: none;
 }
 
-/* 2. Estilização da Seção Hero */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
 .hero-section {
     border: 1px solid #ccc;
     background-color: #fff;
     padding: 30px;
     margin-bottom: 30px;
     text-align: center;
-}
-
-.hero-section h1 {
-    margin-bottom: 20px;
-    font-size: 28px;
 }
 
 .hero-content {
@@ -72,54 +83,14 @@ body {
     line-height: 1.6;
 }
 
-.hero-image-placeholder {
-    flex: 1;
-    height: 200px;
-    background-color: #e0e0e0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px dashed #999;
-    color: #666;
+.student-bio {
+    background-color: #e3f4f4;
+    padding: 15px !important; /* Força o padding específico da bio ignorando o p {padding:0} */
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border-left: 5px solid #1a5f7a;
 }
 
-/* 3. Estilização da Seção História */
-.history-section {
-    border: 1px solid #ccc;
-    background-color: #fff;
-    padding: 30px;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-.history-section h2 {
-    margin-bottom: 20px;
-}
-
-.history-container {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-}
-
-.history-column {
-    flex: 1;
-    text-align: left;
-    line-height: 1.6;
-}
-
-.history-image-placeholder {
-    width: 250px;
-    height: 150px;
-    background-color: #111;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #333;
-}
-
-/* 4. Estilização da Seção de Aventuras (Cards) */
 .adventure-section {
     border: 1px solid #ccc;
     background-color: #fff;
@@ -143,16 +114,47 @@ body {
     text-align: center;
 }
 
-.card-image-placeholder {
-    width: 100%;
-    height: 120px;
-    background-color: #e0e0e0;
-    border: 1px dashed #999;
-    margin-bottom: 10px;
+.card p {
+    padding: 10px 0;
 }
 
-/* 5. Estilização do Rodapé */
-.footer {
+aside {
+    width: 100%;
+    margin: 30px 0;
+    border: 1px solid #ccc;
+    padding: 30px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+aside h2 {
+    margin-bottom: 20px;
+}
+
+.history-container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.history-column {
+    flex: 1;
+    text-align: left;
+    line-height: 1.6;
+}
+
+/* Regra aside img com width: 200px e height: auto exigidos */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 40px;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,13 +169,12 @@ body {
     gap: 10px;
 }
 
-.icon-placeholder {
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    border: 1px solid #333;
+.socialmedia {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
+    gap: 15px;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
 }
