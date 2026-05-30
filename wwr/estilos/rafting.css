@@ -276,7 +276,7 @@ header nav a {
 
 .hero article {
     border: 1px solid #555;
-    padding: -25px;
+    padding: 25px;
     display: grid;
     grid-template-columns: 1fr 110px;
     gap: 20px;
