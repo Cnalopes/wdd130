@@ -2,7 +2,12 @@
    Estilos específicos para a Página Fale Conosco
    ========================================================================== */
    
-
+:root{
+    --cor-primaria: #1a4a5e; /* Azul escuro para o tema náutico/rafting */
+    --cor-secundaria: #e74c3c; /* Vermelho vibrante para destaque */
+    --cor-fundo: #f9f9f9; /* Fundo claro e neutro */
+    --cor-texto: #111; /* Texto escuro para melhor legibilidade */
+}
 .contato-container {
     max-width: 1200px;
     margin: 0 auto;
