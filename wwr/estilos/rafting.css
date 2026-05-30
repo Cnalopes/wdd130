@@ -90,7 +90,7 @@
 
 .form-style input:focus,
 .form-style textarea:focus {
-    border-color: #e74c3c;
+    border-color: var(--cor-secundaria);
     outline: none;
 }
 
@@ -120,7 +120,7 @@
 
 /* Botão de Envio de Alto Contraste e Acessível */
 .btn-enviar {
-    background-color: #e74c3c; /* Cor chamativa e de ação */
+    background-color: var(--cor-secundaria); /* Cor chamativa e de ação */
     color: #ffffff;
     font-size: 1.2rem;
     font-weight: bold;
@@ -133,7 +133,7 @@
 }
 
 .btn-enviar:hover {
-    background-color: #c0392b;
+    background-color: var(--cor-secundaria);
 }
 
 .btn-enviar:active {
@@ -201,7 +201,7 @@ iframe {
     gap: 15px;
     align-items: center;
     text-align: center;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
 .socialmedia img {
@@ -246,7 +246,7 @@ header nav {
 }
 
 header nav a {
-    color: #111;
+    color: var(--cor-texto);
     text-decoration: none;
     font-size: 16px;
 }
