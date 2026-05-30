@@ -291,6 +291,7 @@ header nav a {
     width: 100px;
     height: 75px;
     object-fit: cover;
+    float: right;
 }
 
 .history {
