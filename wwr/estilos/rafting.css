@@ -342,15 +342,6 @@ footer p {
     border: 1px solid #555;
 }
 
-
-hero {
-  position: relative;
-}
-
-.hero h1 {
-  position: absolute;
-}
-
-.hero article {
-  position: absolute;
+h1, article{
+    position:absolute
 }
