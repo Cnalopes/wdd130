@@ -1,0 +1,62 @@
+
+/* 1. VARIÁVEIS CSS EM :ROOT (Obrigatório) */
+:root {
+    --primary-color: #0066cc;
+    --accent-color: #ff6600;
+    --dark-color: #333333;
+    --light-color: #f4f4f4;
+}
+
+/* 2. RESET UNIVERSAL ATUALIZADO */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3. POSICIONAMENTO DE OVERLAY DO HERO (Obrigatório) */
+.hero {
+    position: relative; /* Base para o posicionamento absoluto dos filhos */
+    width: 100%;
+}
+
+/* A imagem hero ocupa a base do container */
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* O H1 fica flutuando no topo da imagem hero */
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+/* O Article fica flutuando em cima da imagem hero */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 4. FLUTUAÇÃO DA IMAGEM DO ARTIGO PARA A DIREITA (Obrigatório) */
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Remover sublinhados das redes sociais */
+.redes-sociais a {
+    text-decoration: none;
+}
